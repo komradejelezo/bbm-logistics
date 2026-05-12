@@ -1019,6 +1019,51 @@ footer {
     transform: translateY(-6px);
 }
 
+.review-link {
+    text-decoration: none;
+}
+
+.video-card {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.video-card img {
+    width: 100%;
+    display: block;
+}
+
+.play-button {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 80px;
+    height: 80px;
+
+    background: rgba(214, 0, 28, 0.9);
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-size: 34px;
+
+    transition: 0.3s;
+}
+
+.video-card:hover .play-button {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
 @media (max-width: 992px) {
     .hero-content,
 .request-wrapper,
@@ -1074,6 +1119,10 @@ footer {
 .floating-buttons img {
     width: 58px !important;
     height: 58px !important;
+}
+
+.numbers-grid {
+    grid-template-columns: 1fr !important;
 }
 
 .section-title {
