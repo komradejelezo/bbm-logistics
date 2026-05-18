@@ -131,14 +131,14 @@ function sendToWhatsApp(event) {
 
     const name = inputs[0].value;
     const phone = inputs[1].value;
-    const company = inputs[2].value;
+    
 
     const message =
 `Новая заявка с сайта BBM Logistics
 
 Имя: ${name}
 Телефон: ${phone}
-Компания: ${company}`;
+`;
 
     const url =
 `https://wa.me/77058888070?text=${encodeURIComponent(message)}`;
