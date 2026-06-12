@@ -141,7 +141,7 @@ function sendToWhatsApp(event) {
 `;
 
     const url =
-`https://wa.me/77058888070?text=${encodeURIComponent(message)}`;
+`https://wa.me/77018000710?text=${encodeURIComponent(message)}`;
 
     window.open(url, "_blank");
 
